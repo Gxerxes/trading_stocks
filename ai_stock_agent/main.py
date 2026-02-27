@@ -18,10 +18,12 @@ from config.settings import (
     LOG_LEVEL,
     ANALYSIS_MODE,
     DAILY_DATA_DIR,
+    STRATEGIES,
 )
 from tushare_api.downloader import TushareDownloader
 from indicators.technical import TechnicalIndicator
 from strategy.feature_builder import FeatureBuilder
+from strategy.wyckoff_strategy import WyckoffStrategy
 from agent.llm_agent import LLMAgent
 from agent.local_analyzer import LocalAnalyzer
 from report.report_generator import ReportGenerator
@@ -109,34 +111,53 @@ def main():
         
         logger.info(f"成功构建 {len(features_dict)} 个特征")
         
-        # 第四步: 进行智能分析
-        logger.info(f"🤖 使用 {ANALYSIS_MODE} 模式进行分析...")
-        
-        if ANALYSIS_MODE.lower() == "api":
-            # 使用 OpenAI API 分析
-            llm_agent = LLMAgent()
-            signals = llm_agent.analyze_batch(features_dict)
-        else:
-            # 使用本地规则分析（默认）
-            local_analyzer = LocalAnalyzer()
-            signals = local_analyzer.analyze_batch(features_dict)
-        
-        if not signals:
-            logger.error("未能生成任何信号")
+        # 第四步: 执行策略（支持单选或多选）
+        logger.info(f"🤖 执行策略: {STRATEGIES}")
+        strategy_signals = {}
+
+        for strategy_name in STRATEGIES:
+            signals = {}
+            if strategy_name == "api":
+                llm_agent = LLMAgent()
+                signals = llm_agent.analyze_batch(features_dict)
+            elif strategy_name == "trend_momentum_volume":
+                local_analyzer = LocalAnalyzer()
+                signals = local_analyzer.analyze_batch(features_dict)
+            elif strategy_name == "wyckoff":
+                wyckoff_strategy = WyckoffStrategy()
+                signals = wyckoff_strategy.analyze_batch(data_dict)
+
+            if not signals:
+                logger.warning(f"策略 {strategy_name} 未生成有效信号，跳过报告")
+                continue
+
+            strategy_signals[strategy_name] = signals
+            logger.info(f"策略 {strategy_name} 生成了 {len(signals)} 个交易信号")
+
+        if not strategy_signals:
+            logger.error("所有策略都未能生成任何信号")
             return
-        
-        logger.info(f"生成了 {len(signals)} 个交易信号")
-        
-        # 第五步: 生成报告
+
+        # 第五步: 生成报告（每个策略独立输出）
         logger.info("📄 生成交易报告...")
-        report_path = ReportGenerator.generate_report(signals)
-        ReportGenerator.generate_detailed_report(signals, features_dict)
-        
-        # 打印摘要
-        ReportGenerator.print_report_summary(signals)
-        
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        last_report_path = None
+        for strategy_name, signals in strategy_signals.items():
+            report_name = f"stock_signals_{strategy_name}_{timestamp}.csv"
+            detail_report_name = f"stock_signals_detailed_{strategy_name}_{timestamp}.csv"
+
+            report_path = ReportGenerator.generate_report(signals, report_name=report_name)
+            ReportGenerator.generate_detailed_report(
+                signals,
+                features_dict,
+                report_name=detail_report_name,
+            )
+            ReportGenerator.print_report_summary(signals)
+            logger.info(f"策略 {strategy_name} 报告: {report_path}")
+            last_report_path = report_path
+
         logger.info("")
-        logger.info(f"✅ 分析完成！报告保存至: {report_path}")
+        logger.info(f"✅ 分析完成！报告保存至: {last_report_path}")
         logger.info("="*60)
         
     except ValueError as e:

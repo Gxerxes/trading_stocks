@@ -53,6 +53,7 @@ class ReportGenerator:
                     'score',
                     'confidence',
                     'trend',
+                    'stage',
                     'entry_price',
                     'stop_loss',
                     'target_price',
@@ -71,6 +72,7 @@ class ReportGenerator:
                         'score': signal.get('score', 0),
                         'confidence': signal.get('confidence', 0),
                         'trend': signal.get('trend', '未知'),
+                        'stage': signal.get('stage', '未知'),
                         'entry_price': f"{signal.get('entry_price', 0):.2f}",
                         'stop_loss': f"{signal.get('stop_loss', 0):.2f}",
                         'target_price': f"{signal.get('target_price', 0):.2f}",
@@ -162,6 +164,7 @@ class ReportGenerator:
                     'score': signal.get('score', 0),
                     'confidence': signal.get('confidence', 0),
                     'trend': signal.get('trend', '未知'),
+                    'stage': signal.get('stage', '未知'),
                     'entry_price': f"{signal.get('entry_price', 0):.2f}",
                     'stop_loss': f"{signal.get('stop_loss', 0):.2f}",
                     'target_price': f"{signal.get('target_price', 0):.2f}",
@@ -183,7 +186,7 @@ class ReportGenerator:
                 fieldnames = [
                     'symbol', 'trade_date', 'close_price', 'pct_change',
                     'MA5', 'MA20', 'volume_ratio',
-                    'signal', 'score', 'confidence', 'trend',
+                    'signal', 'score', 'confidence', 'trend', 'stage',
                     'entry_price', 'stop_loss', 'target_price',
                     'reason'
                 ]

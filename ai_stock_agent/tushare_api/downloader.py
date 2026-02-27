@@ -12,6 +12,8 @@ from config.settings import (
     TUSHARE_TOKEN,
     RETRY_ATTEMPTS,
     DAILY_DATA_DIR,
+    DATA_DIR,
+    DAILY_HISTORY_DIR,
 )
 
 logger = logging.getLogger(__name__)
@@ -28,6 +30,47 @@ STOCK_DAILY_COLUMNS = [
     "pct_chg",
     "vol",
     "amount",
+]
+
+STOCK_BASIC_COLUMNS = [
+    "ts_code",
+    "symbol",
+    "name",
+    "area",
+    "industry",
+    "fullname",
+    "enname",
+    "cnspell",
+    "market",
+    "exchange",
+    "curr_type",
+    "list_status",
+    "list_date",
+    "delist_date",
+    "is_hs",
+    "act_name",
+    "act_ent_type",
+]
+
+DAILY_BASIC_COLUMNS = [
+    "ts_code",
+    "trade_date",
+    "close",
+    "turnover_rate",
+    "turnover_rate_f",
+    "volume_ratio",
+    "pe",
+    "pe_ttm",
+    "pb",
+    "ps",
+    "ps_ttm",
+    "dv_ratio",
+    "dv_ttm",
+    "total_share",
+    "float_share",
+    "free_share",
+    "total_mv",
+    "circ_mv",
 ]
 
 
@@ -310,3 +353,196 @@ class TushareDownloader:
                     old_file.unlink()
                 except Exception as e:
                     logger.warning(f"删除旧文件失败: {old_file}, 错误: {e}")
+
+    def get_all_stock_basic(self) -> Optional[pd.DataFrame]:
+        """
+        获取全市场股票基础信息（上市/退市/暂停）
+
+        Returns:
+            DataFrame，字段为 STOCK_BASIC_COLUMNS
+        """
+        all_frames = []
+        for list_status in ["L", "D", "P"]:
+            df = None
+            for attempt in range(RETRY_ATTEMPTS):
+                try:
+                    df = self.pro.stock_basic(
+                        exchange="",
+                        list_status=list_status,
+                        fields=",".join(STOCK_BASIC_COLUMNS),
+                    )
+                    break
+                except Exception as e:
+                    logger.warning(
+                        f"第 {attempt + 1} 次获取 stock_basic(list_status={list_status}) 失败: {e}"
+                    )
+                    if attempt == RETRY_ATTEMPTS - 1:
+                        raise
+
+            if df is not None and not df.empty:
+                all_frames.append(df)
+
+        if not all_frames:
+            logger.warning("未获取到任何股票基础信息")
+            return None
+
+        merged = pd.concat(all_frames, ignore_index=True)
+        merged = merged.drop_duplicates(subset=["ts_code"], keep="first")
+
+        for col in ["list_date", "delist_date"]:
+            if col in merged.columns:
+                merged[col] = merged[col].fillna("").astype(str)
+
+        for col in STOCK_BASIC_COLUMNS:
+            if col not in merged.columns:
+                merged[col] = ""
+
+        merged = merged[STOCK_BASIC_COLUMNS].sort_values("ts_code").reset_index(drop=True)
+        logger.info(f"获取股票基础信息成功，共 {len(merged)} 条")
+        return merged
+
+    def get_daily_basic(self, trade_date: str) -> Optional[pd.DataFrame]:
+        """
+        获取指定交易日的股票指标（daily_basic）
+        """
+        df = None
+        for attempt in range(RETRY_ATTEMPTS):
+            try:
+                df = self.pro.daily_basic(
+                    trade_date=trade_date,
+                    fields=",".join(DAILY_BASIC_COLUMNS),
+                )
+                break
+            except Exception as e:
+                logger.warning(
+                    f"第 {attempt + 1} 次获取 daily_basic({trade_date}) 失败: {e}"
+                )
+                if attempt == RETRY_ATTEMPTS - 1:
+                    raise
+
+        if df is None or df.empty:
+            logger.warning(f"{trade_date} 未获取到 daily_basic 数据")
+            return None
+
+        for col in DAILY_BASIC_COLUMNS:
+            if col not in df.columns:
+                df[col] = None
+
+        df = df[DAILY_BASIC_COLUMNS].sort_values("ts_code").reset_index(drop=True)
+        logger.info(f"获取 {trade_date} daily_basic 成功，共 {len(df)} 条")
+        return df
+
+    def get_latest_daily_basic(self, end_date: str) -> tuple[Optional[pd.DataFrame], Optional[str]]:
+        """
+        获取截至 end_date 的最近一个有数据的交易日 daily_basic
+        """
+        recent_days = pd.date_range(end=pd.to_datetime(end_date), periods=15, freq="D")
+        for day in sorted(recent_days.strftime("%Y%m%d"), reverse=True):
+            df = self.get_daily_basic(day)
+            if df is not None and not df.empty:
+                return df, day
+        return None, None
+
+    def get_open_trade_dates(self, start_date: str, end_date: str, exchange: str = "SSE") -> List[str]:
+        """
+        获取区间内开市交易日列表
+        """
+        df = None
+        for attempt in range(RETRY_ATTEMPTS):
+            try:
+                df = self.pro.trade_cal(
+                    exchange=exchange,
+                    start_date=start_date,
+                    end_date=end_date,
+                    fields="exchange,cal_date,is_open",
+                )
+                break
+            except Exception as e:
+                logger.warning(
+                    f"第 {attempt + 1} 次获取 trade_cal({start_date}-{end_date}) 失败: {e}"
+                )
+                if attempt == RETRY_ATTEMPTS - 1:
+                    raise
+
+        if df is None or df.empty:
+            return []
+
+        open_days = (
+            df[df["is_open"] == 1]["cal_date"]
+            .astype(str)
+            .sort_values()
+            .tolist()
+        )
+        return open_days
+
+    def get_daily_snapshot(self, trade_date: str) -> Optional[pd.DataFrame]:
+        """
+        获取指定交易日全市场 daily 数据
+        """
+        df = None
+        for attempt in range(RETRY_ATTEMPTS):
+            try:
+                df = self.pro.daily(
+                    trade_date=trade_date,
+                    fields=",".join(STOCK_DAILY_COLUMNS),
+                )
+                break
+            except Exception as e:
+                logger.warning(
+                    f"第 {attempt + 1} 次获取 daily({trade_date}) 失败: {e}"
+                )
+                if attempt == RETRY_ATTEMPTS - 1:
+                    raise
+
+        if df is None:
+            return None
+
+        for col in STOCK_DAILY_COLUMNS:
+            if col not in df.columns:
+                df[col] = None
+
+        normalized = self._normalize_daily_df(df)
+        if not normalized.empty:
+            normalized["trade_date"] = normalized["trade_date"].dt.strftime("%Y%m%d")
+        return normalized
+
+    @staticmethod
+    def save_stock_basic_csv(
+        stock_basic_df: pd.DataFrame,
+        output_file: Path = DATA_DIR / "all_stocks.csv",
+    ) -> Path:
+        """
+        保存股票基础信息为CSV
+        """
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        stock_basic_df.to_csv(output_file, index=False, encoding="utf-8-sig")
+        logger.info(f"股票基础信息已保存: {output_file}")
+        return output_file
+
+    @staticmethod
+    def save_daily_basic_csv(
+        daily_basic_df: pd.DataFrame,
+        output_file: Path,
+    ) -> Path:
+        """
+        保存 daily_basic 到CSV
+        """
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        daily_basic_df.to_csv(output_file, index=False, encoding="utf-8-sig")
+        logger.info(f"daily_basic 已保存: {output_file}")
+        return output_file
+
+    @staticmethod
+    def save_daily_snapshot_csv(
+        daily_df: pd.DataFrame,
+        trade_date: str,
+        output_dir: Path = DAILY_HISTORY_DIR,
+    ) -> Path:
+        """
+        保存指定交易日的全市场 daily 快照
+        """
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_file = output_dir / f"daily_{trade_date}.csv"
+        daily_df.to_csv(output_file, index=False, encoding="utf-8-sig")
+        logger.info(f"daily快照已保存: {output_file}")
+        return output_file
