@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "trade_date": "2026-02-27",
+    "total": 50,
+    "ok": 50,
+    "empty": 0,
+    "failed": 0,
+    "output_dir": "ai_stock_agent/data/minute_baostock"
+  },
+  "failed": []
+}

@@ -1,0 +1,19 @@
+{
+  "ts_code": "300759.SZ",
+  "trade_date": "20260227",
+  "phase": "B",
+  "spring": false,
+  "sos": false,
+  "accumulation_score": 15.77,
+  "score_level": "no_accumulation",
+  "minute_entry": {
+    "available": true,
+    "trade_date": "20260227",
+    "first_30m_high": 30.23,
+    "last_close": 29.6,
+    "vol_last3": 477342.33,
+    "vol_ref20": 217007.6,
+    "entry_ready": false,
+    "reason": "no_confirmed_intraday_entry"
+  }
+}

@@ -1,0 +1,6 @@
+﻿order_date,ts_code,name,entry,stop_loss,tp1,rr_tp1,shares,reason,filled,fill_price,fill_time
+NEXT_TRADE_DAY_UNKNOWN,001359.SZ,平安电工,78.0,75.29,82.68,1.73,100,turnover_5_20_60 signal,0,,
+NEXT_TRADE_DAY_UNKNOWN,603065.SH,宿迁联盛,9.01,8.69,9.55,1.69,100,turnover_5_20_60 signal,0,,
+NEXT_TRADE_DAY_UNKNOWN,002942.SZ,新农股份,21.9,21.14,23.21,1.72,100,turnover_5_20_60 signal,0,,
+NEXT_TRADE_DAY_UNKNOWN,301212.SZ,联盛化学,30.96,29.88,32.82,1.72,100,turnover_5_20_60 signal,0,,
+NEXT_TRADE_DAY_UNKNOWN,301202.SZ,朗威股份,43.02,41.52,45.6,1.72,100,turnover_5_20_60 signal,0,,

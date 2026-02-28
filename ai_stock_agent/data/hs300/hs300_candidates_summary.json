@@ -1,0 +1,14 @@
+{
+  "source_hs300_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/hs300/hs300_stocks_latest.csv",
+  "latest_daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/daily_history/daily_20260227.csv",
+  "latest_daily_basic_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/daily_basic_history/daily_basic_20260227.csv",
+  "total_hs300": 300,
+  "excluded_financial_count": 51,
+  "remaining_after_exclusion": 249,
+  "already_in_stock_pool_count": 17,
+  "new_candidates_count": 232,
+  "focus_candidates_count": 50,
+  "output_no_financial": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/hs300/hs300_no_financial.csv",
+  "output_candidates": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/hs300/hs300_candidates_for_pool.csv",
+  "output_focus_candidates": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/hs300/hs300_candidates_focus.csv"
+}

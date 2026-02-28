@@ -1,0 +1,14 @@
+{
+  "source_zz500_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/zz500/zz500_stocks_latest.csv",
+  "latest_daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/daily_history/daily_20260227.csv",
+  "latest_daily_basic_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/daily_basic_history/daily_basic_20260227.csv",
+  "total_zz500": 500,
+  "excluded_financial_count": 28,
+  "remaining_after_exclusion": 472,
+  "already_in_stock_pool_count": 1,
+  "new_candidates_count": 471,
+  "focus_candidates_count": 50,
+  "output_no_financial": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/zz500/zz500_no_financial.csv",
+  "output_candidates": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/zz500/zz500_candidates_for_pool.csv",
+  "output_focus_candidates": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/zz500/zz500_candidates_focus.csv"
+}

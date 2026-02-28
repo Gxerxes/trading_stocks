@@ -1,0 +1,17 @@
+{
+  "ts_code": "512880.SH",
+  "trade_date": "20260227",
+  "stage": "neutral",
+  "action": "HOLD",
+  "close": 1.169,
+  "financing_net": 3541557.0,
+  "financing_net_ma5": 24312699.0,
+  "rzye": 3995890671.0,
+  "rzye_slope_5d": 121563495.0,
+  "leverage_ratio": 2.6704786883821643,
+  "leverage_ratio_z20": 0.5007737997468552,
+  "rzye_acceleration": 117364007.19999981,
+  "reason": [
+    "融资净买入5日均值为正"
+  ]
+}

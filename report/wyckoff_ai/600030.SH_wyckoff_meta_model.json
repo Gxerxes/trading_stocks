@@ -1,0 +1,20 @@
+{
+  "target": "future_return_10d",
+  "n_samples": 5509,
+  "feature_ic": {
+    "accumulation_score": -0.030228098787205015,
+    "trading_range_flag": 0.011861470172904526,
+    "spring": 0.012580307464778477,
+    "sos": 0.05798752554533096,
+    "trend_slope_60": 0.033368594518975746,
+    "volume_trend_20": 0.01771784780929759
+  },
+  "weights": {
+    "accumulation_score": -0.18460601628542161,
+    "trading_range_flag": 0.07243918221000105,
+    "spring": 0.07682919329685184,
+    "sos": 0.3541356060971929,
+    "trend_slope_60": 0.20378533716447617,
+    "volume_trend_20": 0.1082046649460564
+  }
+}

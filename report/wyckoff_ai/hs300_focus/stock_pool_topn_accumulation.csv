@@ -1,0 +1,11 @@
+﻿ts_code,name,trade_date,phase,accumulation_score,score_level,spring,sos,minute_entry_ready,minute_reason,status
+002241.SZ,歌尔股份,20260227,B,28.41,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok
+601390.SH,中国中铁,20260227,E,27.5,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+002050.SZ,三花智控,20260227,E,25.83,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+002475.SZ,立讯精密,20260227,B,24.86,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+603501.SH,豪威集团,20260227,B,24.54,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok
+000725.SZ,京东方Ａ,20260227,B,23.21,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok
+600482.SH,中国动力,20260227,E,22.92,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+000100.SZ,TCL科技,20260227,E,22.91,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+601698.SH,中国卫通,20260227,E,22.89,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+300033.SZ,同花顺,20260227,B,22.6,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok

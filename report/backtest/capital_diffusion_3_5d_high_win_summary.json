@@ -1,0 +1,12 @@
+{
+  "strategy": "capital_diffusion_3_5d_high_win",
+  "start_date": "20250101",
+  "end_date": "20260227",
+  "top_n": 10,
+  "trades": 103,
+  "win_rate": 0.534,
+  "avg_return_pct": 1.412,
+  "median_return_pct": 0.2002,
+  "avg_hold_days": 2.3786,
+  "profit_factor_proxy": 2.8054
+}

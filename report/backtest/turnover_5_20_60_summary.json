@@ -1,0 +1,15 @@
+{
+  "strategy": "turnover_5_20_60",
+  "start_date": "20250101",
+  "end_date": "20260227",
+  "top_n": 20,
+  "trade_days": 216,
+  "total_recommendations": 4225,
+  "total_filled": 4155,
+  "fill_rate": 0.9834,
+  "wins_on_filled": 3514,
+  "win_rate_on_filled": 0.8457,
+  "tp1_hit_rate_on_filled": 0.3254,
+  "stop_hit_rate_on_filled": 0.0498,
+  "avg_next_ret_pct_on_filled": 3.1643
+}
