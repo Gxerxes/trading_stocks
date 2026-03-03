@@ -418,26 +418,57 @@ def main() -> None:
 
 
 def pro_bar_qfq(pro, ts_code: str, start_date: str, end_date: str) -> Optional[pd.DataFrame]:
+    """
+    分段下载 qfq 日线，规避长区间请求时早期 OHLC 为空的问题。
+    """
+    s = datetime.strptime(start_date, "%Y%m%d")
+    e = datetime.strptime(end_date, "%Y%m%d")
+    if s > e:
+        return None
+
+    frames: list[pd.DataFrame] = []
+    cursor = s
+    # 两年一个分段，降低单次查询过长导致的数据空洞风险
+    chunk_days = 730
     last_err = None
-    for _ in range(3):
-        try:
-            df = ts.pro_bar(
-                ts_code=ts_code,
-                adj="qfq",
-                start_date=start_date,
-                end_date=end_date,
-                asset="E",
-                adjfactor=False,
-                api=pro,
-            )
-            if df is None:
-                return None
-            return df
-        except Exception as e:
-            last_err = e
-    if last_err:
-        raise RuntimeError(f"pro_bar_qfq failed: {last_err}")
-    return None
+
+    while cursor <= e:
+        chunk_end = min(cursor + timedelta(days=chunk_days - 1), e)
+        cs = cursor.strftime("%Y%m%d")
+        ce = chunk_end.strftime("%Y%m%d")
+
+        got = None
+        for _ in range(3):
+            try:
+                got = ts.pro_bar(
+                    ts_code=ts_code,
+                    adj="qfq",
+                    start_date=cs,
+                    end_date=ce,
+                    asset="E",
+                    adjfactor=False,
+                    api=pro,
+                )
+                break
+            except Exception as e1:
+                last_err = e1
+
+        if got is not None and not got.empty:
+            frames.append(got)
+
+        cursor = chunk_end + timedelta(days=1)
+
+    if not frames:
+        if last_err:
+            raise RuntimeError(f"pro_bar_qfq failed: {last_err}")
+        return None
+
+    out = pd.concat(frames, ignore_index=True)
+    if "trade_date" in out.columns:
+        out["trade_date"] = out["trade_date"].astype(str)
+        out = out.drop_duplicates(subset=["trade_date"], keep="last")
+    out = out.sort_values("trade_date").reset_index(drop=True)
+    return out
 
 
 if __name__ == "__main__":

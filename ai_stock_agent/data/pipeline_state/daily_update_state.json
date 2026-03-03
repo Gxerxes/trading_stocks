@@ -1,607 +1,379 @@
 {
-  "run_date": "20260228",
+  "run_date": "20260301",
   "latest_trade_date": "20260227",
-  "started_at": "2026-02-28 19:23:15",
-  "total_stocks": 50,
+  "started_at": "2026-03-01 11:20:22",
+  "total_stocks": 31,
   "stocks": [
     {
-      "ts_code": "002156.SZ",
+      "ts_code": "600131.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002156.SZ_qfq_20070816_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002156.SZ_qfq_w_20070817_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002156_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600131.SH_qfq_19980402_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600131.SH_qfq_w_19980403_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600131_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002156.SZ/002156.SZ_1d_20070816_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002156.SZ/002156.SZ_1w_20070817_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002156.SZ/002156.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600131.SH/600131.SH_1d_19980402_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600131.SH/600131.SH_1w_19980403_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600131.SH/600131.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002008.SZ",
+      "ts_code": "600487.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002008.SZ_qfq_20040625_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002008.SZ_qfq_w_20040625_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002008_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600487.SH_qfq_20030822_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600487.SH_qfq_w_20030822_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600487_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002008.SZ/002008.SZ_1d_20040625_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002008.SZ/002008.SZ_1w_20040625_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002008.SZ/002008.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600487.SH/600487.SH_1d_20030822_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600487.SH/600487.SH_1w_20030822_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600487.SH/600487.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "600879.SH",
+      "ts_code": "600498.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600879.SH_qfq_20001012_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600879.SH_qfq_w_20001013_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600879_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600498.SH_qfq_20010823_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600498.SH_qfq_w_20010824_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600498_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600879.SH/600879.SH_1d_20001012_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600879.SH/600879.SH_1w_20001013_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600879.SH/600879.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600498.SH/600498.SH_1d_20010823_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600498.SH/600498.SH_1w_20010824_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600498.SH/600498.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "600118.SH",
+      "ts_code": "600562.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600118.SH_qfq_20010227_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600118.SH_qfq_w_20010302_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600118_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600562.SH_qfq_20030128_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600562.SH_qfq_w_20030129_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600562_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600118.SH/600118.SH_1d_20010227_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600118.SH/600118.SH_1w_20010302_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600118.SH/600118.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600562.SH/600562.SH_1d_20030128_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600562.SH/600562.SH_1w_20030129_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600562.SH/600562.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "600096.SH",
+      "ts_code": "603341.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600096.SH_qfq_20000113_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600096.SH_qfq_w_20000114_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600096_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/603341.SH_qfq_20240301_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/603341.SH_qfq_w_20240301_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_603341_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600096.SH/600096.SH_1d_20000113_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600096.SH/600096.SH_1w_20000114_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600096.SH/600096.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=603341.SH/603341.SH_1d_20240301_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=603341.SH/603341.SH_1w_20240301_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=603341.SH/603341.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "601179.SH",
+      "ts_code": "688002.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/601179.SH_qfq_20100128_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/601179.SH_qfq_w_20100129_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_601179_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688002.SH_qfq_20190722_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688002.SH_qfq_w_20190726_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688002_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=601179.SH/601179.SH_1d_20100128_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=601179.SH/601179.SH_1w_20100129_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=601179.SH/601179.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688002.SH/688002.SH_1d_20190722_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688002.SH/688002.SH_1w_20190726_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688002.SH/688002.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002281.SZ",
+      "ts_code": "688100.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002281.SZ_qfq_20090821_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002281.SZ_qfq_w_20090821_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002281_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688100.SH_qfq_20200121_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688100.SH_qfq_w_20200123_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688100_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002281.SZ/002281.SZ_1d_20090821_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002281.SZ/002281.SZ_1w_20090821_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002281.SZ/002281.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688100.SH/688100.SH_1d_20200121_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688100.SH/688100.SH_1w_20200123_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688100.SH/688100.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002851.SZ",
+      "ts_code": "688387.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002851.SZ_qfq_20170306_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002851.SZ_qfq_w_20170310_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002851_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688387.SH_qfq_20220926_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688387.SH_qfq_w_20220930_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688387_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002851.SZ/002851.SZ_1d_20170306_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002851.SZ/002851.SZ_1w_20170310_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002851.SZ/002851.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688387.SH/688387.SH_1d_20220926_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688387.SH/688387.SH_1w_20220930_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688387.SH/688387.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "000021.SZ",
+      "ts_code": "002078.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000021.SZ_qfq_20001225_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000021.SZ_qfq_w_20001229_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000021_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002078.SZ_qfq_20061116_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002078.SZ_qfq_w_20061117_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002078_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000021.SZ/000021.SZ_1d_20001225_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000021.SZ/000021.SZ_1w_20001229_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000021.SZ/000021.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002078.SZ/002078.SZ_1d_20061116_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002078.SZ/002078.SZ_1w_20061117_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002078.SZ/002078.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "300604.SZ",
+      "ts_code": "600754.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300604.SZ_qfq_20170417_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300604.SZ_qfq_w_20170421_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300604_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600754.SH_qfq_19961011_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600754.SH_qfq_w_19961011_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600754_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300604.SZ/300604.SZ_1d_20170417_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300604.SZ/300604.SZ_1w_20170421_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300604.SZ/300604.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600754.SH/600754.SH_1d_19961011_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600754.SH/600754.SH_1w_19961011_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600754.SH/600754.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002340.SZ",
+      "ts_code": "001213.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002340.SZ_qfq_20100122_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002340.SZ_qfq_w_20100122_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002340_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/001213.SZ_qfq_20210908_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/001213.SZ_qfq_w_20210910_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_001213_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002340.SZ/002340.SZ_1d_20100122_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002340.SZ/002340.SZ_1w_20100122_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002340.SZ/002340.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=001213.SZ/001213.SZ_1d_20210908_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=001213.SZ/001213.SZ_1w_20210910_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=001213.SZ/001213.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "688525.SH",
+      "ts_code": "601333.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688525.SH_qfq_20221230_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688525.SH_qfq_w_20221230_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688525_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/601333.SH_qfq_20061222_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/601333.SH_qfq_w_20061222_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_601333_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688525.SH/688525.SH_1d_20221230_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688525.SH/688525.SH_1w_20221230_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688525.SH/688525.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=601333.SH/601333.SH_1d_20061222_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=601333.SH/601333.SH_1w_20061222_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=601333.SH/601333.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002185.SZ",
+      "ts_code": "000060.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002185.SZ_qfq_20071120_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002185.SZ_qfq_w_20071123_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002185_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000060.SZ_qfq_19970123_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000060.SZ_qfq_w_19970124_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000060_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002185.SZ/002185.SZ_1d_20071120_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002185.SZ/002185.SZ_1w_20071123_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002185.SZ/002185.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000060.SZ/000060.SZ_1d_19970123_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000060.SZ/000060.SZ_1w_19970124_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000060.SZ/000060.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "600988.SH",
+      "ts_code": "000426.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600988.SH_qfq_20040414_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600988.SH_qfq_w_20040416_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600988_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000426.SZ_qfq_19960828_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000426.SZ_qfq_w_19960830_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000426_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600988.SH/600988.SH_1d_20040414_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600988.SH/600988.SH_1w_20040416_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600988.SH/600988.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000426.SZ/000426.SZ_1d_19960828_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000426.SZ/000426.SZ_1w_19960830_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000426.SZ/000426.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "000559.SZ",
+      "ts_code": "600497.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000559.SZ_qfq_20010221_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000559.SZ_qfq_w_20010223_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000559_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600497.SH_qfq_20040420_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600497.SH_qfq_w_20040423_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600497_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000559.SZ/000559.SZ_1d_20010221_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000559.SZ/000559.SZ_1w_20010223_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000559.SZ/000559.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600497.SH/600497.SH_1d_20040420_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600497.SH/600497.SH_1w_20040423_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600497.SH/600497.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "601212.SH",
+      "ts_code": "000878.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/601212.SH_qfq_20170215_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/601212.SH_qfq_w_20170217_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_601212_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000878.SZ_qfq_19980602_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000878.SZ_qfq_w_19980605_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000878_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=601212.SH/601212.SH_1d_20170215_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=601212.SH/601212.SH_1w_20170217_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=601212.SH/601212.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000878.SZ/000878.SZ_1d_19980602_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000878.SZ/000878.SZ_1w_19980605_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000878.SZ/000878.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "603920.SH",
+      "ts_code": "002203.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/603920.SH_qfq_20170426_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/603920.SH_qfq_w_20170428_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_603920_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002203.SZ_qfq_20080116_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002203.SZ_qfq_w_20080118_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002203_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=603920.SH/603920.SH_1d_20170426_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=603920.SH/603920.SH_1w_20170428_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=603920.SH/603920.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002203.SZ/002203.SZ_1d_20080116_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002203.SZ/002203.SZ_1w_20080118_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002203.SZ/002203.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "601615.SH",
+      "ts_code": "603979.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/601615.SH_qfq_20190123_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/601615.SH_qfq_w_20190125_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_601615_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/603979.SH_qfq_20150630_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/603979.SH_qfq_w_20150703_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_603979_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=601615.SH/601615.SH_1d_20190123_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=601615.SH/601615.SH_1w_20190125_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=601615.SH/601615.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=603979.SH/603979.SH_1d_20150630_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=603979.SH/603979.SH_1w_20150703_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=603979.SH/603979.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "301308.SZ",
+      "ts_code": "000933.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/301308.SZ_qfq_20220805_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/301308.SZ_qfq_w_20220805_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_301308_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000933.SZ_qfq_19990831_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000933.SZ_qfq_w_19990903_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000933_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=301308.SZ/301308.SZ_1d_20220805_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=301308.SZ/301308.SZ_1w_20220805_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=301308.SZ/301308.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000933.SZ/000933.SZ_1d_19990831_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000933.SZ/000933.SZ_1w_19990903_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000933.SZ/000933.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "300724.SZ",
+      "ts_code": "002532.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300724.SZ_qfq_20180810_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300724.SZ_qfq_w_20180810_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300724_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002532.SZ_qfq_20101231_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002532.SZ_qfq_w_20101231_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002532_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300724.SZ/300724.SZ_1d_20180810_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300724.SZ/300724.SZ_1w_20180810_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300724.SZ/300724.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002532.SZ/002532.SZ_1d_20101231_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002532.SZ/002532.SZ_1w_20101231_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002532.SZ/002532.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002738.SZ",
+      "ts_code": "300285.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002738.SZ_qfq_20141230_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002738.SZ_qfq_w_20141231_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002738_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300285.SZ_qfq_20120113_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300285.SZ_qfq_w_20120113_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300285_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002738.SZ/002738.SZ_1d_20141230_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002738.SZ/002738.SZ_1w_20141231_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002738.SZ/002738.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300285.SZ/300285.SZ_1d_20120113_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300285.SZ/300285.SZ_1w_20120113_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300285.SZ/300285.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002624.SZ",
+      "ts_code": "300146.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002624.SZ_qfq_20111028_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002624.SZ_qfq_w_20111028_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002624_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300146.SZ_qfq_20101215_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300146.SZ_qfq_w_20101217_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300146_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002624.SZ/002624.SZ_1d_20111028_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002624.SZ/002624.SZ_1w_20111028_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002624.SZ/002624.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300146.SZ/300146.SZ_1d_20101215_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300146.SZ/300146.SZ_1w_20101217_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300146.SZ/300146.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "601168.SH",
+      "ts_code": "300972.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/601168.SH_qfq_20070712_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/601168.SH_qfq_w_20070713_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_601168_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300972.SZ_qfq_20210419_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300972.SZ_qfq_w_20210423_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300972_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=601168.SH/601168.SH_1d_20070712_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=601168.SH/601168.SH_1w_20070713_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=601168.SH/601168.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300972.SZ/300972.SZ_1d_20210419_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300972.SZ/300972.SZ_1w_20210423_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300972.SZ/300972.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "688122.SH",
+      "ts_code": "600298.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688122.SH_qfq_20190722_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688122.SH_qfq_w_20190726_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688122_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600298.SH_qfq_20000818_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600298.SH_qfq_w_20000818_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600298_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688122.SH/688122.SH_1d_20190722_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688122.SH/688122.SH_1w_20190726_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688122.SH/688122.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600298.SH/600298.SH_1d_20000818_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600298.SH/600298.SH_1w_20000818_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600298.SH/600298.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "300207.SZ",
+      "ts_code": "600737.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300207.SZ_qfq_20110421_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300207.SZ_qfq_w_20110422_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300207_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600737.SH_qfq_19960731_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600737.SH_qfq_w_19960802_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600737_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300207.SZ/300207.SZ_1d_20110421_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300207.SZ/300207.SZ_1w_20110422_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300207.SZ/300207.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600737.SH/600737.SH_1d_19960731_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600737.SH/600737.SH_1w_19960802_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600737.SH/600737.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "300115.SZ",
+      "ts_code": "600873.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300115.SZ_qfq_20100902_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300115.SZ_qfq_w_20100903_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300115_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600873.SH_qfq_19950217_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600873.SH_qfq_w_19950217_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600873_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300115.SZ/300115.SZ_1d_20100902_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300115.SZ/300115.SZ_1w_20100903_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300115.SZ/300115.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600873.SH/600873.SH_1d_19950217_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600873.SH/600873.SH_1w_19950217_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600873.SH/600873.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "688027.SH",
+      "ts_code": "603345.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688027.SH_qfq_20200709_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688027.SH_qfq_w_20200710_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688027_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/603345.SH_qfq_20170222_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/603345.SH_qfq_w_20170224_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_603345_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688027.SH/688027.SH_1d_20200709_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688027.SH/688027.SH_1w_20200710_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688027.SH/688027.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=603345.SH/603345.SH_1d_20170222_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=603345.SH/603345.SH_1w_20170224_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=603345.SH/603345.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002465.SZ",
+      "ts_code": "002385.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002465.SZ_qfq_20100831_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002465.SZ_qfq_w_20100903_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002465_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002385.SZ_qfq_20100409_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002385.SZ_qfq_w_20100409_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002385_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002465.SZ/002465.SZ_1d_20100831_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002465.SZ/002465.SZ_1w_20100903_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002465.SZ/002465.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002385.SZ/002385.SZ_1d_20100409_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002385.SZ/002385.SZ_1w_20100409_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002385.SZ/002385.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "600884.SH",
+      "ts_code": "301498.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600884.SH_qfq_20010105_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600884.SH_qfq_w_20010105_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600884_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/301498.SZ_qfq_20230816_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/301498.SZ_qfq_w_20230818_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_301498_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600884.SH/600884.SH_1d_20010105_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600884.SH/600884.SH_1w_20010105_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600884.SH/600884.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=301498.SZ/301498.SZ_1d_20230816_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=301498.SZ/301498.SZ_1w_20230818_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=301498.SZ/301498.SZ_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "002335.SZ",
+      "ts_code": "600299.SH",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002335.SZ_qfq_20100113_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002335.SZ_qfq_w_20100115_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002335_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600299.SH_qfq_20000420_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600299.SH_qfq_w_20000421_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600299_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002335.SZ/002335.SZ_1d_20100113_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002335.SZ/002335.SZ_1w_20100115_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002335.SZ/002335.SZ_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600299.SH/600299.SH_1d_20000420_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600299.SH/600299.SH_1w_20000421_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600299.SH/600299.SH_5m_20260227_20260227.parquet"
       ]
     },
     {
-      "ts_code": "300346.SZ",
+      "ts_code": "002155.SZ",
       "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300346.SZ_qfq_20120807_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300346.SZ_qfq_w_20120810_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300346_2026-02-27_2026-02-27_5m_adj2.csv",
+      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002155.SZ_qfq_20070816_20260227.csv",
+      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002155.SZ_qfq_w_20070817_20260227.csv",
+      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002155_2026-02-27_2026-02-27_5m_adj2.csv",
       "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300346.SZ/300346.SZ_1d_20120807_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300346.SZ/300346.SZ_1w_20120810_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300346.SZ/300346.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "300450.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/300450.SZ_qfq_20150518_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/300450.SZ_qfq_w_20150522_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_300450_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=300450.SZ/300450.SZ_1d_20150518_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=300450.SZ/300450.SZ_1w_20150522_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=300450.SZ/300450.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "001389.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/001389.SZ_qfq_20240402_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/001389.SZ_qfq_w_20240403_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_001389_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=001389.SZ/001389.SZ_1d_20240402_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=001389.SZ/001389.SZ_1w_20240403_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=001389.SZ/001389.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "688347.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688347.SH_qfq_20230807_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688347.SH_qfq_w_20230811_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688347_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688347.SH/688347.SH_1d_20230807_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688347.SH/688347.SH_1w_20230811_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688347.SH/688347.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002312.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002312.SZ_qfq_20091203_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002312.SZ_qfq_w_20091204_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002312_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002312.SZ/002312.SZ_1d_20091203_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002312.SZ/002312.SZ_1w_20091204_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002312.SZ/002312.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "688777.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688777.SH_qfq_20201124_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688777.SH_qfq_w_20201127_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688777_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688777.SH/688777.SH_1d_20201124_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688777.SH/688777.SH_1w_20201127_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688777.SH/688777.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002558.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002558.SZ_qfq_20110302_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002558.SZ_qfq_w_20110304_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002558_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002558.SZ/002558.SZ_1d_20110302_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002558.SZ/002558.SZ_1w_20110304_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002558.SZ/002558.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002130.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002130.SZ_qfq_20070420_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002130.SZ_qfq_w_20070420_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002130_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002130.SZ/002130.SZ_1d_20070420_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002130.SZ/002130.SZ_1w_20070420_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002130.SZ/002130.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002273.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002273.SZ_qfq_20080919_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002273.SZ_qfq_w_20080919_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002273_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002273.SZ/002273.SZ_1d_20080919_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002273.SZ/002273.SZ_1w_20080919_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002273.SZ/002273.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "688568.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688568.SH_qfq_20200708_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688568.SH_qfq_w_20200710_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688568_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688568.SH/688568.SH_1d_20200708_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688568.SH/688568.SH_1w_20200710_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688568.SH/688568.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002429.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002429.SZ_qfq_20100610_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002429.SZ_qfq_w_20100611_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002429_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002429.SZ/002429.SZ_1d_20100610_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002429.SZ/002429.SZ_1w_20100611_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002429.SZ/002429.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "600352.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600352.SH_qfq_20030801_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600352.SH_qfq_w_20030801_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600352_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600352.SH/600352.SH_1d_20030801_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600352.SH/600352.SH_1w_20030801_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600352.SH/600352.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "000738.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000738.SZ_qfq_20001103_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000738.SZ_qfq_w_20001103_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000738_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000738.SZ/000738.SZ_1d_20001103_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000738.SZ/000738.SZ_1w_20001103_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000738.SZ/000738.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "000039.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/000039.SZ_qfq_20001218_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/000039.SZ_qfq_w_20001222_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_000039_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=000039.SZ/000039.SZ_1d_20001218_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=000039.SZ/000039.SZ_1w_20001222_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=000039.SZ/000039.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "600141.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600141.SH_qfq_20001114_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600141.SH_qfq_w_20001117_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600141_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600141.SH/600141.SH_1d_20001114_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600141.SH/600141.SH_1w_20001117_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600141.SH/600141.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "002517.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/002517.SZ_qfq_20101207_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/002517.SZ_qfq_w_20101210_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_002517_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002517.SZ/002517.SZ_1d_20101207_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002517.SZ/002517.SZ_1w_20101210_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002517.SZ/002517.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "301536.SZ",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/301536.SZ_qfq_20240328_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/301536.SZ_qfq_w_20240329_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sz_301536_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=301536.SZ/301536.SZ_1d_20240328_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=301536.SZ/301536.SZ_1w_20240329_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=301536.SZ/301536.SZ_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "603596.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/603596.SH_qfq_20180427_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/603596.SH_qfq_w_20180427_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_603596_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=603596.SH/603596.SH_1d_20180427_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=603596.SH/603596.SH_1w_20180427_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=603596.SH/603596.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "688017.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/688017.SH_qfq_20200828_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/688017.SH_qfq_w_20200828_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_688017_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=688017.SH/688017.SH_1d_20200828_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=688017.SH/688017.SH_1w_20200828_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=688017.SH/688017.SH_5m_20260227_20260227.parquet"
-      ]
-    },
-    {
-      "ts_code": "600580.SH",
-      "status": "ok",
-      "daily_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/stock_daily_qfq/600580.SH_qfq_20020606_20260227.csv",
-      "weekly_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/weekly_data_qfq/600580.SH_qfq_w_20020607_20260227.csv",
-      "minute_file": "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/minute_baostock/sh_600580_2026-02-27_2026-02-27_5m_adj2.csv",
-      "lake_files": [
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=600580.SH/600580.SH_1d_20020606_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=600580.SH/600580.SH_1w_20020607_20260227.parquet",
-        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=600580.SH/600580.SH_5m_20260227_20260227.parquet"
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1d/ts_code=002155.SZ/002155.SZ_1d_20070816_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=1w/ts_code=002155.SZ/002155.SZ_1w_20070817_20260227.parquet",
+        "/Users/lixuning/Documents/dev/trading_stocks/ai_stock_agent/data/lake/bars/freq=5m/ts_code=002155.SZ/002155.SZ_5m_20260227_20260227.parquet"
       ]
     }
   ],
@@ -611,9 +383,9 @@
     "error_code": "0",
     "error_msg": "success"
   },
-  "finished_at": "2026-02-28 19:23:57",
+  "finished_at": "2026-03-01 11:29:18",
   "summary": {
-    "ok": 50,
+    "ok": 31,
     "failed": 0
   }
 }

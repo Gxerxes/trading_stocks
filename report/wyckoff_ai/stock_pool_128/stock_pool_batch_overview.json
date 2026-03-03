@@ -1,0 +1,22 @@
+{
+  "total_stocks": 128,
+  "ok": 128,
+  "failed": 0,
+  "top_n": 10,
+  "spring_lookback": 20,
+  "files": {
+    "latest_summary": "report/wyckoff_ai/stock_pool_128/stock_pool_latest_summary.csv",
+    "topn_accumulation": "report/wyckoff_ai/stock_pool_128/stock_pool_topn_accumulation.csv",
+    "spring_candidates": "report/wyckoff_ai/stock_pool_128/stock_pool_spring_candidates.csv",
+    "relaxed_candidates": "report/wyckoff_ai/stock_pool_128/stock_pool_relaxed_candidates.csv"
+  },
+  "relaxed_rules": {
+    "score_threshold": 35.0,
+    "phases": [
+      "B",
+      "C"
+    ],
+    "require_minute_entry": false
+  },
+  "failed_detail": []
+}

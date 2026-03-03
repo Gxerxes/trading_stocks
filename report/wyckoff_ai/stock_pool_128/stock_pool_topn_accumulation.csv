@@ -1,0 +1,11 @@
+﻿ts_code,name,trade_date,phase,accumulation_score,score_level,spring,sos,minute_entry_ready,minute_reason,status
+600009.SH,上海机场,20260227,B,42.81,neutral_range,0,0,0,no_confirmed_intraday_entry,ok
+600000.SH,浦发银行,20260227,A,42.2,neutral_range,0,0,0,no_confirmed_intraday_entry,ok
+300760.SZ,迈瑞医疗,20260227,B,41.53,neutral_range,0,0,0,no_confirmed_intraday_entry,ok
+600109.SH,国金证券,20260227,B,36.23,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+000001.SZ,平安银行,20260227,B,32.11,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+600580.SH,卧龙电驱,20260227,B,31.65,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+600104.SH,上汽集团,20260227,B,30.19,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+600030.SH,中信证券,20260227,B,29.67,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+600887.SH,伊利股份,20260227,B,29.16,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok
+300115.SZ,长盈精密,20260227,B,29.15,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok

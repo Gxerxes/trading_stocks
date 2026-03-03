@@ -1,0 +1,16 @@
+﻿ts_code,name,trade_date,phase,accumulation_score,score_level,spring,sos,minute_entry_ready,minute_reason,status,industry
+600009.SH,上海机场,20260227,B,42.81,neutral_range,0,0,0,no_confirmed_intraday_entry,ok,机场
+300760.SZ,迈瑞医疗,20260227,B,41.53,neutral_range,0,0,0,no_confirmed_intraday_entry,ok,医疗保健
+600580.SH,卧龙电驱,20260227,B,31.65,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,电气设备
+600104.SH,上汽集团,20260227,B,30.19,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,汽车整车
+600887.SH,伊利股份,20260227,B,29.16,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,乳制品
+300115.SZ,长盈精密,20260227,B,29.15,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,元器件
+600900.SH,长江电力,20260227,B,28.54,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,水力发电
+002241.SZ,歌尔股份,20260227,B,28.41,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok,元器件
+600519.SH,贵州茅台,20260227,B,28.33,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,白酒
+000858.SZ,五粮液,20260227,B,26.04,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,白酒
+002475.SZ,立讯精密,20260227,B,24.86,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,元器件
+603501.SH,豪威集团,20260227,B,24.54,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok,半导体
+000725.SZ,京东方Ａ,20260227,B,23.21,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok,元器件
+300033.SZ,同花顺,20260227,B,22.6,no_accumulation,0,0,0,no_confirmed_intraday_entry,ok,软件服务
+600048.SH,保利发展,20260227,B,21.25,no_accumulation,0,0,1,break_30m_high_and_volume_expand,ok,全国地产

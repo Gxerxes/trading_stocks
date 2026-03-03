@@ -1,0 +1,3 @@
+﻿ts_code,trade_date,close,prev_close,pct_chg,amount,is_limit_up,is_limit_down,is_break,limit_streak,turnover_rate,turnover_rate_f,volume_ratio,total_mv,circ_mv
+600601.SH,19901219,37.06,,,37.0,0,0,0,0,2.5,,,3706.0,3706.0
+600602.SH,19901219,384.0,,,443.0,0,0,0,0,22.705,,,76800.0,19618.56
